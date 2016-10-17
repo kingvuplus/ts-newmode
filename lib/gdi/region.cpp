@@ -269,7 +269,7 @@ void gRegion::regionOp(const gRegion &reg1, const gRegion &reg2, int opcode, int
 					appendNonO(r1, r1BandEnd, top, bot);
 					coalesce(prevBand, curBand);
 				}
-			}
+                        }
 			ytop = r2y1;
 		} else if (r2y1 < r1y1) {
 			if (opcode & 2) {
